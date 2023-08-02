@@ -60,11 +60,51 @@ main{
 }
 
 section.graph{
-    background-color: teal;
     width: 33%;
     height: 100%;
+    padding: 5px;
 }
 
-.graph_header{
+.graph-header{
     display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    flex: 1;
+    display: inline-block;
+}
+
+hr.linhaHeader{
+    flex: 1;
+    width: 130px;
+}
+
+.graph-Header-subtitle{
+    margin-top: 10px;
+}
+
+.graph-placeholder{
+    background-color: #ccc;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.graph-heade-tasks-left{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.list{
+    padding: 5px 15px   ;
+}
+
+.list-Heade{
+    display: flex;
+}
+
+.list-Header-selec{
+
 }

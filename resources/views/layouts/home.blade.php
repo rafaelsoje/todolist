@@ -23,14 +23,21 @@
         </nav>
         <main>
             <section class="graph">
-                <div class="graph_header">
+                <div class="graph-header">
                     <h2>Progresso do dia.</h2>
-                    <hr/>
+                    <hr class="linhaHeader"/>
                     Data
                 </div>
+                <div class="graph-Header-subtitle">Tarefas: <b>3/6</b></div>
+                <div class="graph-placeholder"></div>
+                <p class="graph-heade-tasks-left">Restam 3 tarefa para serem realizadas</p>
             </section>
             <section class="list">
-                Lista
+                <div class="list-Header">
+                    <select class="list-Header-select">
+                        <option value="1">Todas as tarefas</option>
+                    </select>
+                </div>
             </section>
         </main>
     </div>
