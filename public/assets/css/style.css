@@ -7,7 +7,7 @@
 }
 
 :root{
-    --background-light: #f0f2fa;
+    --background-light: #c1bcec;
     --background-white: #f6f5ff ;
     --text-dark: #0a0040;
     --color-primary: #6143ff;
@@ -28,6 +28,10 @@ body{
 .sidebar{
     width: 100px;
     background-color: var(--color-primary);
+}
+
+.sidebar img{
+    max-width: 100%;
 }
 
 nav{
@@ -90,6 +94,8 @@ hr.linhaHeader{
     height: 300px;
     margin-top: 20px;
     margin-left: 35px;
+    background: url("../images/graph.png");
+    background-size: contain;
 }
 
 .graph-heade-tasks-left{
@@ -98,7 +104,8 @@ hr.linhaHeader{
 }
 
 .list{
-    padding: 5px 15px   ;
+    padding: 5px 15px ;
+    flex: 1;    
 }
 
 .list-Heade{
@@ -107,4 +114,61 @@ hr.linhaHeader{
 
 .list-Header-selec{
 
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    margin-top: 20px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;    
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--background-light);
+}
+
+.task:hover{
+    background-color: var(--background-light);
+}
+
+.title{
+    display: flex;
+    align-items: center;    
+    flex: 1;
+}
+
+.priority, actions{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actions a{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.sphere{
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.task-title{
+    padding-left: 10px;
+    font-weight: bold;
 }

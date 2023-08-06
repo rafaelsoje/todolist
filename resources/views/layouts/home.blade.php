@@ -13,7 +13,7 @@
 <body>
 <div class="container">
     <div class="sidebar">
-        logo
+        <img src="./assets/images/logo.png" />
     </div>
     <div class="content">
         <nav>
@@ -37,6 +37,39 @@
                     <select class="list-Header-select">
                         <option value="1">Todas as tarefas</option>
                     </select>
+                </div>
+                <div class="task-list">
+                    <div class="task">
+                        <div class="title">
+                            <input type="checkbox" />
+                            <div class="task-title">Titulo da tartefa</div>
+                        </div>
+                        <div class="priority">
+                            <div class="sphere"></div>
+                            <div>Titulo da tartefa</div>
+                        </div>
+                        <div class="actions">
+                            <a href="">
+                                <img src="./assets/images/icon-edit.png" />
+                            </a>
+                            <a href="">
+                                <img src="./assets/images/icon-delete.png" />
+                            </a>                                
+                        </div>
+                    </div>
+                    <div class="task">
+                        <div class="title">
+                            <input type="checkbox" />
+                            <div class="task-title">Titulo da tartefa</div>
+                        </div>
+                        <div class="priority">
+                            <div class="sphere"></div>
+                            <div>Titulo da tartefa</div>
+                        </div>
+                        <div class="actions">
+                            Editar - Excluir
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
